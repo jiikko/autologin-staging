@@ -1,0 +1,13 @@
+{
+  "name": "autologin staging",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "excute javascript",
+  "content_scripts": [
+    {
+      "matches": ["http://*.o.actindi.net/*", "https://*.o.actindi.net/*"],
+      "js": ["javascripts/jquery.min.js", "javascripts/app.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
