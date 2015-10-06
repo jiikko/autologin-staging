@@ -5,7 +5,7 @@
   "description": "excute javascript",
   "content_scripts": [
     {
-      "matches": ["http://*.o.actindi.net/*", "https://*.o.actindi.net/*"],
+      "matches": ["http://*.actindi.net/*", "https://*.actindi.net/*"],
       "js": ["javascripts/app.js"],
       "run_at": "document_end"
     }
